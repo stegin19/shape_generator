@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shape generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="main">
+    <h1 style="text-align: center;">Shape generator</h1>
+ <div style="text-align: center;"> <label for="">Select Color:</label>
+    <input type="color" name="" id="color1"></div>
+    
+    <div class="radio1" style="text-align: center;">
+    <label for="">Select Shape:</label>
+    <input name="shape" id="square" value="square" type="radio">square
+    <input name="shape" id="rectangle" value="rectangle" type="radio" >rectangle
+    <input name="shape" id="circle" value="circle" type="radio" >circle
+    </div>
+
+    <div class="number">
+        <label for="">Select number : </label>
+        <input  id="no" type="text">
+    </div>
+
+    <div class="button">
+        <button onclick="button()"> Generate</button>
+        <button onclick="window.location.reload()">Reload</button>
+    </div>
+
+    <div class="result" id="result"></div>
+
+ <script src="./script.js"></script>
+</body>
+</html>

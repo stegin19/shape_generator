@@ -1,0 +1,109 @@
+.main{
+    /* border: 1px solid; */
+    height: vh;
+    width: 990px;
+    margin-left: 14%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.radio1{
+    display: flex;
+    position: relative;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+
+.number{
+    display: flex;
+    position: relative;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.button{
+    display: flex;
+    position: relative;
+    /* border: 1px solid; */
+    justify-content:space-evenly;
+    align-items: center;
+    width:15% ;
+    margin-top: 25px;
+    margin-left: 44%;
+}
+
+button{
+    border: 0px solid;
+    scale: 1.1;
+    background-color: rgb(170, 206, 238);
+}
+
+button:hover{
+    background-color: aqua;
+    border: 0px solid;
+}
+
+.result{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: center;
+    /* align-items: center; */
+    height:55%;
+    width: 100%;
+    /* border: 1px solid; */
+    margin-left: 0%;
+}
+
+.square{
+    /* position: absolute; */
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.rectangle{
+    /* position: absolute; */
+    height: 50px;
+    margin: 5px;
+    width: 90px;
+    text-align: center;
+    border: 1px solid;
+    background-color: rgb(255, 0, 0);
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+.circle{
+    /* position: absolute; */
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid;
+    background-color: rgb(17, 0, 255);
+    border-radius: 50%;
+    padding-top: 1%;
+    padding-left: 2%;
+}
+
+input{
+    border-radius: 5% 5% 5% 5%;
+    border: 0px ;
+    background-color: rgb(170, 206, 238);
+}
+
+input:hover{
+    background-color: aqua;
+}
